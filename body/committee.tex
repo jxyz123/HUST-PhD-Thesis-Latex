@@ -1,0 +1,18 @@
+% 答辩委员会名单
+% 对于委员只有4名的情况，请将 \multirow{6} 修改为 \multirow{4} 并删除表格倒数第2-3行
+
+\begin{table}[!ht]
+    \centering
+    \renewcommand\arraystretch{2.4}
+    \begin{tabular}{|>{\centering\arraybackslash\sihao}m{3em}|>{\centering\arraybackslash\sihao}m{6em}|>{\centering\arraybackslash\sihao}m{6em}|>{\centering\arraybackslash\sihao}m{18em}|}
+    \hline
+        ~ & \bf{姓名} & \bf{职称} & \bf{单位} \\ \hline
+         主席 & ~ & ~ & ~ \\ \hline
+        \multirow{6}{*}{委员} & ~ & ~ & ~ \\ \cline{2-4}
+         & ~ & ~ & ~ \\ \cline{2-4}
+         & ~ & ~ & ~ \\ \cline{2-4}
+         & ~ & ~ & ~ \\ \cline{2-4}
+         & ~ & ~ & ~ \\ \cline{2-4}
+         & ~ & ~ & ~ \\ \hline
+    \end{tabular}
+\end{table}
