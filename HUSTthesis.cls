@@ -160,6 +160,7 @@
 
 % 首行缩进宏包
 \RequirePackage{indentfirst}
+\setlength{\parindent}{2em}
 
 % 中文支持和中文数字支持
 % \RequirePackage{xeCJK,CJKnumb}
